@@ -37,8 +37,8 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Files')
 
 # Links
-SUPPORT_LINK = environ.get('SUPPORT_LINK', 'https://t.me/MsMovieRequests')
-UPDATES_LINK = environ.get('UPDATES_LINK', 'https://t.me/Cinema_Rockets')
+SUPPORT_LINK = environ.get('SUPPORT_LINK', 'https://t.me/+dfHQo60rv980YjM1')
+UPDATES_LINK = environ.get('UPDATES_LINK', 'https://t.me/+fQW_IELD_mhiMGY9')
 
 # Bot settings
 AUTO_FILTER = is_enabled((environ.get('AUTO_FILTER', "True")), True)
