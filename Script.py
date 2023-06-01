@@ -1,21 +1,21 @@
 class script(object):
-    START_TXT = """👋 Hello {},
+    START_TXT = """👋 ʜᴇʟʟᴏ {},
 
-I can give any Movie and TV Series to auto filter method. 🥳
+✦ ɪ ᴀᴍ ⚡️ ᴘᴏᴡᴇʀғᴜʟ ᴀᴜᴛᴏ-ғɪʟᴛᴇʀ ʙᴏᴛ.
 
-All you have to do is add me to a group and give me admin. 😌
+✦ ɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ᴀʟʟ ᴍᴏᴠɪᴇs ᴀɴᴅ ᴡᴇʙ sᴇʀɪᴇs ɪɴ sᴏᴍᴇ ʟᴀɴɢᴜᴀɢᴇs. 
 
-I will take care of the rest. 😎"""
+✦ ɪᴛs ᴇᴀsʏ ᴛᴏ ᴜsᴇ ᴍᴇ. ᴊᴜsᴛ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴍᴀᴋᴇ ᴍᴇ ᴀᴅᴍɪɴ"""
 
-    MY_ABOUT_TXT = """★ Server: <a href=https://www.heroku.com>Heroku</a>
-★ Database: <a href=https://www.mongodb.com>MongoDB</a>
-★ Language: <a href=https://www.python.org>Python</a>
-★ Library: <a href=https://pyrogram.org>Pyrogram</a>"""
+    MY_ABOUT_TXT = """✯ Mʏ Nᴀᴍᴇ:  <a href=https://www.heroku.com>Heroku</a>
+✯ Cʀᴇᴀᴛᴏʀ:  <a href=http://t.me/Mahi_458>ᴍᴀʜᴇꜱʜ.ꜱ</a>
+✯ ᴍᴏᴠɪᴇꜱ: <a href=https://t.me/MsMovieRequests>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>
+✯ ᴜᴩᴅᴀᴛᴇꜱ:  <a href=https://t.me/Cinema_Rockets>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>"""
 
-    MY_OWNER_TXT = """★ Name: Hansaka Anuhas
-★ Username: @Hansaka_Anuhas
-★ ID: <code>5493832202</code>
-★ Country: Sri Lanka 🇱🇰"""
+    MY_OWNER_TXT = """★ Name: ᴍᴀʜᴇꜱʜ.ꜱ
+★ Username: @MaHi_458
+★ ID: <code>5450011131</code>
+★ Country: India """
 
     STATUS_TXT = """🗂 Total Files: <code>{}</code>
 👤 Total Users: <code>{}</code>
