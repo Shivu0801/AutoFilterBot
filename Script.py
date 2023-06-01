@@ -7,7 +7,7 @@ class script(object):
 
 <b>✦ ɪᴛs ᴇᴀsʏ ᴛᴏ ᴜsᴇ ᴍᴇ. ᴊᴜsᴛ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴍᴀᴋᴇ ᴍᴇ ᴀᴅᴍɪɴ</b>"""
 
-    MY_ABOUT_TXT = """**✯ Mʏ Nᴀᴍᴇ:  <a href=https://t.me/BotTest_MsBot>ᴀᴜᴛᴏ ꜰɪʟᴛᴇʀ ʙᴏᴛ</a></b>
+    MY_ABOUT_TXT = """<b>✯ Mʏ Nᴀᴍᴇ:  <a href=https://t.me/BotTest_MsBot>ᴀᴜᴛᴏ ꜰɪʟᴛᴇʀ ʙᴏᴛ</a></b>
 <b>✯ Cʀᴇᴀᴛᴏʀ:  <a href=http://t.me/Mahi_458>ᴍᴀʜᴇꜱʜ.ꜱ</a></b>
 <b>✯ ᴍᴏᴠɪᴇꜱ: <a href=https://t.me/MsMovieRequests>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a></b>
 <b>✯ ᴜᴩᴅᴀᴛᴇꜱ:  <a href=https://t.me/Cinema_Rockets>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a></b>"""
