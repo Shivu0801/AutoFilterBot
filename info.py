@@ -59,7 +59,9 @@ MAX_LIST_ELM = environ.get("MAX_LIST_ELM", None)
 SHORTLINK_URL = environ.get("SHORTLINK_URL", "mdisklink.link")
 SHORTLINK_API = environ.get("SHORTLINK_API", "48c239abf799bfcd27ac2c26a6698e895bc6d543")
 WELCOME_TEXT = environ.get("WELCOME_TEXT", "Hello {mention}, Welcome to {title} group!")
-                           
+FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '')).split()]
+
+
 # Log
 LOG_STR = "Current Cusomized Configurations are:-\n"
 LOG_STR += ("AUTO_FILTER is enabled.\n" if AUTO_FILTER else "AUTO_FILTER is disabled.\n")
