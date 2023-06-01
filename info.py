@@ -37,17 +37,17 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Files')
 
 # Links
-SUPPORT_LINK = environ.get('SUPPORT_LINK', 'https://t.me/SL_Bots_Support')
-UPDATES_LINK = environ.get('UPDATES_LINK', 'https://t.me/SL_Bots_Updates')
+SUPPORT_LINK = environ.get('SUPPORT_LINK', 'https://t.me/Cinema_Rockets')
+UPDATES_LINK = environ.get('UPDATES_LINK', 'https://t.me/MsMovieRequests')
 
 # Bot settings
 AUTO_FILTER = is_enabled((environ.get('AUTO_FILTER', "True")), True)
 IMDB = is_enabled((environ.get('IMDB', "True")), True)
 SPELL_CHECK = is_enabled(environ.get("SPELL_CHECK", "True"), True)
-SHORTLINK = is_enabled((environ.get('SHORTLINK', "True")), True)
+SHORTLINK = is_enabled((environ.get('SHORTLINK', "False")), True)
 AUTO_DELETE = is_enabled((environ.get('AUTO_DELETE', "False")), False)
 WELCOME = is_enabled((environ.get('WELCOME', "False")), False)
-PROTECT_CONTENT = is_enabled((environ.get('PROTECT_CONTENT', "Fa
+PROTECT_CONTENT = is_enabled((environ.get('PROTECT_CONTENT', "False
 LONG_IMDB_DESCRIPTION = is_enabled(environ.get("LONG_IMDB_DESCRIPTION", "False"), False)
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', False))
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -57,7 +57,7 @@ IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", "<b>🚨 Requested Movie Name: {que
 FILE_CAPTION = environ.get("FILE_CAPTION", "<code>{file_name}</code>")
 MAX_LIST_ELM = environ.get("MAX_LIST_ELM", None)
 SHORTLINK_URL = environ.get("SHORTLINK_URL", "mdisklink.link")
-SHORTLINK_API = environ.get("SHORTLINK_API", "5843c3cc645f5077b2200a2c77e0344879880b3e")
+SHORTLINK_API = environ.get("SHORTLINK_API", "48c239abf799bfcd27ac2c26a6698e895bc6d543")
 WELCOME_TEXT = environ.get("WELCOME_TEXT", "Hello {mention}, Welcome to {title} group!")
                            
 # Log
