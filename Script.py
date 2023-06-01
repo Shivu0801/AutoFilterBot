@@ -7,15 +7,15 @@ class script(object):
 
 ✦ ɪᴛs ᴇᴀsʏ ᴛᴏ ᴜsᴇ ᴍᴇ. ᴊᴜsᴛ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴍᴀᴋᴇ ᴍᴇ ᴀᴅᴍɪɴ"""
 
-    MY_ABOUT_TXT = """✯ Mʏ Nᴀᴍᴇ:  <a href=https://t.me/{}>{}</a>
+    MY_ABOUT_TXT = """✯ Mʏ Nᴀᴍᴇ:  <a href=https://t.me/BotTest_MsBot>ᴀᴜᴛᴏ ꜰɪʟᴛᴇʀ ʙᴏᴛ</a>
 ✯ Cʀᴇᴀᴛᴏʀ:  <a href=http://t.me/Mahi_458>ᴍᴀʜᴇꜱʜ.ꜱ</a>
 ✯ ᴍᴏᴠɪᴇꜱ: <a href=https://t.me/MsMovieRequests>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>
 ✯ ᴜᴩᴅᴀᴛᴇꜱ:  <a href=https://t.me/Cinema_Rockets>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>"""
 
-    MY_OWNER_TXT = """★ Name: ᴍᴀʜᴇꜱʜ.ꜱ
-★ Username: @MaHi_458
-★ ID: <code>5450011131</code>
-★ Country: India """
+    MY_OWNER_TXT = """**★ Name: ᴍᴀʜᴇꜱʜ.ꜱ**
+**★ Username: @MaHi_458**
+**★ ID:** <code>5450011131</code>
+**★ Country: India** """
 
     STATUS_TXT = """🗂 Total Files: <code>{}</code>
 👤 Total Users: <code>{}</code>
