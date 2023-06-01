@@ -1,21 +1,21 @@
 class script(object):
-    START_TXT = """**👋 ʜᴇʟʟᴏ {},
+    START_TXT = """<b>👋 ʜᴇʟʟᴏ {}</b>,
 
-✦ ɪ ᴀᴍ ⚡️ ᴘᴏᴡᴇʀғᴜʟ ᴀᴜᴛᴏ-ғɪʟᴛᴇʀ ʙᴏᴛ.
+<b>✦ ɪ ᴀᴍ ⚡️ ᴘᴏᴡᴇʀғᴜʟ ᴀᴜᴛᴏ-ғɪʟᴛᴇʀ ʙᴏᴛ.</b>
 
-✦ ɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ᴀʟʟ ᴍᴏᴠɪᴇs ᴀɴᴅ ᴡᴇʙ sᴇʀɪᴇs ɪɴ sᴏᴍᴇ ʟᴀɴɢᴜᴀɢᴇs. 
+<b>✦ ɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ᴀʟʟ ᴍᴏᴠɪᴇs ᴀɴᴅ ᴡᴇʙ sᴇʀɪᴇs ɪɴ sᴏᴍᴇ ʟᴀɴɢᴜᴀɢᴇs.</b> 
 
-✦ ɪᴛs ᴇᴀsʏ ᴛᴏ ᴜsᴇ ᴍᴇ. ᴊᴜsᴛ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴍᴀᴋᴇ ᴍᴇ ᴀᴅᴍɪɴ**"""
+<b>✦ ɪᴛs ᴇᴀsʏ ᴛᴏ ᴜsᴇ ᴍᴇ. ᴊᴜsᴛ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴍᴀᴋᴇ ᴍᴇ ᴀᴅᴍɪɴ</b>"""
 
-    MY_ABOUT_TXT = """**✯ Mʏ Nᴀᴍᴇ:  <a href=https://t.me/BotTest_MsBot>ᴀᴜᴛᴏ ꜰɪʟᴛᴇʀ ʙᴏᴛ</a>**
-**✯ Cʀᴇᴀᴛᴏʀ:  <a href=http://t.me/Mahi_458>ᴍᴀʜᴇꜱʜ.ꜱ</a>**
-**✯ ᴍᴏᴠɪᴇꜱ: <a href=https://t.me/MsMovieRequests>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>**
-**✯ ᴜᴩᴅᴀᴛᴇꜱ:  <a href=https://t.me/Cinema_Rockets>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>**"""
+    MY_ABOUT_TXT = """**✯ Mʏ Nᴀᴍᴇ:  <a href=https://t.me/BotTest_MsBot>ᴀᴜᴛᴏ ꜰɪʟᴛᴇʀ ʙᴏᴛ</a></b>
+<b>✯ Cʀᴇᴀᴛᴏʀ:  <a href=http://t.me/Mahi_458>ᴍᴀʜᴇꜱʜ.ꜱ</a></b>
+<b>✯ ᴍᴏᴠɪᴇꜱ: <a href=https://t.me/MsMovieRequests>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a></b>
+<b>✯ ᴜᴩᴅᴀᴛᴇꜱ:  <a href=https://t.me/Cinema_Rockets>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a></b>"""
 
-    MY_OWNER_TXT = """**★ Name: ᴍᴀʜᴇꜱʜ.ꜱ**
-**★ Username: @MaHi_458**
-**★ ID:** <code>5450011131</code>
-**★ Country: India** """
+    MY_OWNER_TXT = """<b>★ Name: ᴍᴀʜᴇꜱʜ.ꜱ</b>
+<b>★ Username: @MaHi_458</b>
+<b>★ ID:</b> <code>5450011131</code>
+<b>★ Country: India</b>"""
 
     STATUS_TXT = """🗂 Total Files: <code>{}</code>
 👤 Total Users: <code>{}</code>
