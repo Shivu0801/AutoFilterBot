@@ -110,7 +110,7 @@ async def next_page(bot, query):
             for file in files
         ]
         btn.insert(0,
-            [InlineKeyboardButton("🎈 Send All 🎈", url=await get_shortlink(query.message.chat.id, f'https://t.me/{temp.U_NAME}?start=all_{query.message.chat.id}_{pre}_{key}'))]
+            [InlineKeyboardButton("🎈 ꜱᴇɴᴅ ᴀʟʟ ꜰɪʟᴇꜱ 🎈", url=await get_shortlink(query.message.chat.id, f'https://t.me/{temp.U_NAME}?start=all_{query.message.chat.id}_{pre}_{key}'))]
         )
     else:
         btn = [
@@ -122,7 +122,7 @@ async def next_page(bot, query):
             for file in files
         ]
         btn.insert(0,
-            [InlineKeyboardButton("🎈 Send All 🎈", callback_data=f"send_all#{pre}#{key}")]
+            [InlineKeyboardButton("🎈 ꜱᴇɴᴅ ᴀʟʟ ꜰɪʟᴇꜱ 🎈", callback_data=f"send_all#{pre}#{key}")]
         )
 
     if 0 < offset <= 10:
@@ -134,30 +134,30 @@ async def next_page(bot, query):
     if n_offset == 0:
 
         btn.append(
-            [InlineKeyboardButton("⏪ BACK", callback_data=f"next_{req}_{key}_{off_set}"),
-             InlineKeyboardButton(f"🗓 PAGES {math.ceil(int(offset) / 10) + 1} / {math.ceil(total / 10)}",
+            [InlineKeyboardButton("⏪ ʙᴀᴄᴋ", callback_data=f"next_{req}_{key}_{off_set}"),
+             InlineKeyboardButton(f"🗓 ᴩᴀɢᴇꜱ {math.ceil(int(offset) / 10) + 1} / {math.ceil(total / 10)}",
                                   callback_data="buttons")]
         )
         btn.append(
-            [InlineKeyboardButton("❌ Close ❌", callback_data="close_data")]
+            [InlineKeyboardButton("•  ᴄʟᴏꜱᴇ  •", callback_data="close_data")]
         )
     elif off_set is None:
         btn.append(
-            [InlineKeyboardButton(f"🗓 PAGES {math.ceil(int(offset) / 10) + 1} / {math.ceil(total / 10)}", callback_data="buttons"),
-             InlineKeyboardButton("NEXT ⏩", callback_data=f"next_{req}_{key}_{n_offset}")])
+            [InlineKeyboardButton(f"🗓  ᴩᴀɢᴇꜱ {math.ceil(int(offset) / 10) + 1} / {math.ceil(total / 10)}", callback_data="buttons"),
+             InlineKeyboardButton("ɴᴇxᴛ ⏩", callback_data=f"next_{req}_{key}_{n_offset}")])
         btn.append(
-            [InlineKeyboardButton("❌ Close ❌", callback_data="close_data")])
+            [InlineKeyboardButton("•  ᴄʟᴏꜱᴇ  •", callback_data="close_data")])
     else:
         btn.append(
             [
-                InlineKeyboardButton("⏪ BACK", callback_data=f"next_{req}_{key}_{off_set}"),
+                InlineKeyboardButton("⏪ ʙᴀᴄᴋ", callback_data=f"next_{req}_{key}_{off_set}"),
                 InlineKeyboardButton(f"🗓 {math.ceil(int(offset) / 10) + 1} / {math.ceil(total / 10)}", callback_data="buttons"),
-                InlineKeyboardButton("NEXT ⏩", callback_data=f"next_{req}_{key}_{n_offset}")
+                InlineKeyboardButton("ɴᴇxᴛ ⏩", callback_data=f"next_{req}_{key}_{n_offset}")
             ]
         )
         btn.append(
             [
-                InlineKeyboardButton("❌ Close ❌", callback_data="close_data")
+                InlineKeyboardButton("•  ᴄʟᴏꜱᴇ  •", callback_data="close_data")
             ]
         )
     try:
@@ -345,8 +345,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
 
         btn = [[
-            InlineKeyboardButton('⚡️ Updates Channel ⚡️', url=UPDATES_LINK),
-            InlineKeyboardButton('🔥 Support Group 🔥', url=SUPPORT_LINK)
+            InlineKeyboardButton('⚡️ ᴜᴩᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ ⚡️', url=UPDATES_LINK),
+            InlineKeyboardButton('🔥 ꜱᴜᴩᴩᴏʀᴛ ɢʀᴏᴜᴩ 🔥', url=SUPPORT_LINK)
         ]]
         await query.message.delete()
         await client.send_cached_media(
@@ -739,7 +739,7 @@ async def auto_filter(client, msg, spoll=False):
             for file in files
         ]
         btn.insert(0,
-            [InlineKeyboardButton("🎈 Send All 🎈", url=await get_shortlink(message.chat.id, f'https://t.me/{temp.U_NAME}?start=all_{message.chat.id}_{pre}_{key}'))]
+            [InlineKeyboardButton("🎈 ꜱᴇɴᴅ ᴀʟʟ ꜰɪʟᴇꜱ 🎈", url=await get_shortlink(message.chat.id, f'https://t.me/{temp.U_NAME}?start=all_{message.chat.id}_{pre}_{key}'))]
         )
     else:
         btn = [
@@ -751,25 +751,25 @@ async def auto_filter(client, msg, spoll=False):
             for file in files
         ]
         btn.insert(0,
-            [InlineKeyboardButton("🎈 Send All 🎈", callback_data=f"send_all#{pre}#{key}")]
+            [InlineKeyboardButton("🎈 ꜱᴇɴᴅ ᴀʟʟ ꜰɪʟᴇꜱ 🎈", callback_data=f"send_all#{pre}#{key}")]
         )
 
     if offset != "":
         BUTTONS[key] = search
         req = message.from_user.id if message.from_user else 0
         btn.append(
-            [InlineKeyboardButton(text=f"🗓 PAGES 1 / {math.ceil(int(total_results) / 10)}", callback_data="buttons"),
-             InlineKeyboardButton(text="NEXT ⏩", callback_data=f"next_{req}_{key}_{offset}")]
+            [InlineKeyboardButton(text=f"🗓 ᴩᴀɢᴇꜱ 1 / {math.ceil(int(total_results) / 10)}", callback_data="buttons"),
+             InlineKeyboardButton(text="ɴᴇxᴛ ⏩", callback_data=f"next_{req}_{key}_{offset}")]
         )
         btn.append(
-            [InlineKeyboardButton("❌ Close ❌", callback_data="close_data")]
+            [InlineKeyboardButton("•  ᴄʟᴏꜱᴇ  •", callback_data="close_data")]
         )
     else:
         btn.append(
-            [InlineKeyboardButton(text="🗓 PAGES 1 / 1", callback_data="buttons")]
+            [InlineKeyboardButton(text="🗓 ᴩᴀɢᴇꜱ 1 / 1", callback_data="buttons")]
         )
         btn.append(
-            [InlineKeyboardButton("❌ Close ❌", callback_data="close_data")]
+            [InlineKeyboardButton("•  ᴄʟᴏꜱᴇ  •", callback_data="close_data")]
         )
     imdb = await get_poster(search, file=(files[0]).file_name) if settings["imdb"] else None
     TEMPLATE = settings['template']
@@ -894,9 +894,9 @@ async def advantage_spell_chok(msg):
         for movie in movies
     ]
     buttons.append(
-        [InlineKeyboardButton("❌ Close ❌", callback_data="close_data")]
+        [InlineKeyboardButton("• ᴄʟᴏꜱᴇ  •", callback_data="close_data")]
     )
-    s = await message.reply_photo(photo=random.choice(PICS), caption=f"👋 Hello {message.from_user.mention},\n\nI couldn't find the <b>'{search}'</b> you requested.\nSelect if you meant one of these? 👇", reply_markup=InlineKeyboardMarkup(buttons))
+    s = await message.reply_photo(photo=random.choice(PICS), caption=f"👋 ʜᴇʟʟᴏ {message.from_user.mention},\n\nɪ ᴄᴏᴜʟᴅɴ'ᴛ ꜰɪɴᴅ ᴛʜᴇ <b>'{search}'</b> yᴏᴜ ʀᴇqᴜᴇꜱᴛᴇᴅ.\n ꜱᴇʟᴇᴄᴛ ɪꜰ yᴏᴜ ᴍᴇᴀɴᴛ ᴏɴᴇ ᴏꜰ ᴛʜᴇꜱᴇ? 👇", reply_markup=InlineKeyboardMarkup(buttons))
     await asyncio.sleep(300)
     await s.delete()
     try:
