@@ -60,7 +60,7 @@ SHORTLINK_URL = environ.get("SHORTLINK_URL", "mdisklink.link")
 SHORTLINK_API = environ.get("SHORTLINK_API", "48c239abf799bfcd27ac2c26a6698e895bc6d543")
 WELCOME_TEXT = environ.get("WELCOME_TEXT", "Hello {mention}, Welcome to {title} group!")
 FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '')).split()]
-
+PUBLIC_FILE_STORE = [int(ch) for ch in (environ.get('PUBLIC_FILE_STORE', '')).split()]
 
 # Log
 LOG_STR = "Current Cusomized Configurations are:-\n"
