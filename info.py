@@ -18,7 +18,7 @@ BOT_TOKEN = environ.get('BOT_TOKEN', '')
 
 # Bot pics and stickers
 STICKERS = (environ.get('STICKERS', 'CAACAgIAAxkBAAEGm9hjhf69CtQmXoeQ2HidYCGBFeZ4gAACxgEAAhZCawpKI9T0ydt5RysE CAACAgIAAxkBAAEGm9pjhf7I9jCDh3PpkocMNFcPJfisvwAC0wADVp29CvUyj5fVEvk9KwQ CAACAgIAAxkBAAEGm9xjhf7SH4Yc8EP5yI4e8BTH968ClwACGAADDbbSGX671giQDJU8KwQ')).split()
-PICS = (environ.get('PICS', 'https://telegra.ph/file/58fef5cb458d5b29b0186.jpg https://telegra.ph/file/f0aa4f433132769f8970c.jpg https://telegra.ph/file/f515fbc2084592eca60a5.jpg https://telegra.ph/file/20dbdcffaa89bd3d09a74.jpg https://telegra.ph/file/6045ba953af4def846238.jpg')).split()
+PICS = (environ.get('PICS', 'https://graph.org/file/bea5a753b08ee6637ea19.jpg https://graph.org/file/79689d029702b89433802.jpg https://graph.org/file/e7d6b923dc3b5ac230f2d.jpg https://graph.org/file/d3f8356f68334d3d6469e.jpg https://graph.org/file/5929678d9b3ead121e0fe.jpg https://graph.org/file/d5bbd91bc31335cc5d767.jpg https://graph.org/file/3e9632d6c445ca43fce8f.jpg https://graph.org/file/1d7684b0aa371bb4cba52.jpg https://graph.org/file/953fb219ee7bcd047077e.jpg https://graph.org/file/ab51f955b0306ab3cee42.jpg https://graph.org/file/1a157b0d6dd42ea12c9a6.jpg https://graph.org/file/8dfdc6194a98c61e23633.jpg https://graph.org/file/8b4bac129ae77e36e3482.jpg https://graph.org/file/dbd94d6466ab540798dbd.jpg https://graph.org/file/2b4d482bebb59ba78cfd4.jpg https://graph.org/file/edfea7a6977abeeba2404.jpg')).split()
 
 # Bot Admins
 ADMINS = [int(admins) if id_pattern.search(admins) else admins for admins in environ.get('ADMINS', '').split()]
