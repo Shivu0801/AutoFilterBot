@@ -19,7 +19,7 @@ async def broadcast_cancel(bot, query):
         await query.message.edit("Trying to cancel groups broadcasting...")
         
         
-@Client.on_message(filters.command("users_broadcast") & filters.user(ADMINS) & filters.reply)
+@Client.on_message(filters.command("broadcast") & filters.user(ADMINS) & filters.reply)
 async def users_broadcast(bot, message):
     users = await db.get_all_users()
     b_msg = message.reply_to_message
