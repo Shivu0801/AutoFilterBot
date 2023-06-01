@@ -10,8 +10,8 @@
       "python",
       "file-index"
     ],
-    "website": "https://github.com/Hansaka-Anuhas/AutoFilterBot",
-    "repository": "https://github.com/Hansaka-Anuhas/AutoFilterBot",
+    "website": "https://github.com/Maheshbot99/AutoFilterBot",
+    "repository": "https://github.com/Maheshbot99/AutoFilterBot",
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
