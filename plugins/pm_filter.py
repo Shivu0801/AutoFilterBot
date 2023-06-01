@@ -380,12 +380,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "start":
         await query.answer('Welcome!')
         buttons = [[
-            InlineKeyboardButton("➕ Add Me To Your Group ➕", url=f'http://t.me/{temp.U_NAME}?startgroup=start')
+            InlineKeyboardButton("➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ yᴏᴜ ɢʀᴏᴜᴩ ➕", url=f'http://t.me/{temp.U_NAME}?startgroup=start')
         ],[
-            InlineKeyboardButton('🔎 Inline Search 🔍', switch_inline_query_current_chat='')
+            InlineKeyboardButton('🔎 ɪɴʟɪɴᴇ ꜱᴇᴀʀᴄʜ', switch_inline_query_current_chat='')
         ],[
-            InlineKeyboardButton('👑 My Owner 👑', callback_data='my_owner'),
-            InlineKeyboardButton('ℹ️ My About ℹ️', callback_data='my_about')
+            InlineKeyboardButton('ʙᴏᴛ ᴏᴡɴᴇʀ', callback_data='my_owner'),
+            InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='my_about')
         ],[
             InlineKeyboardButton('❌ Close ❌', callback_data='close_data')
         ]]
