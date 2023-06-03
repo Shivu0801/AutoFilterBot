@@ -37,7 +37,7 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Files')
 
 # Links
-SUPPORT_LINK = environ.get('SUPPORT_LINK', 'https://t.me/+rCvi2ObCCk5hOTk1')
+SUPPORT_LINK = environ.get('SUPPORT_LINK', 'https://t.me/+_yNt5j-90XBhM2M1')
 UPDATES_LINK = environ.get('UPDATES_LINK', 'https://t.me/+rCvi2ObCCk5hOTk1')
 
 # Bot settings
