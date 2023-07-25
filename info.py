@@ -1,4 +1,4 @@
-import re
+import red
 from os import environ
 
 id_pattern = re.compile(r'^.\d+$')
@@ -9,7 +9,7 @@ def is_enabled(value, default):
         return False
     else:
         return default
-
+#remove red
 # Bot information
 SESSION = environ.get('SESSION', 'Auto_Filters_Bot')
 API_ID = int(environ.get('API_ID', ''))
